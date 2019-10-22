@@ -19,6 +19,12 @@ app.use(bodyParser.json());
 // parse application/json
 app.use(bodyParser.json());
 
+//require the html-routes
+require('app/routing/apiRoutes.js')(app);
+require('app/routing/htmlRoutes.js')(app);
+
+
+
 // Starts the server to begin listening
 // =============================================================
 app.listen(PORT, function () {
