@@ -20,8 +20,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.json());
 
 //require the html-routes
-require('app/routing/api-route.js')(app);
-require('app/routing/html-route.js')(app);
+require('app\routing\api-route.js')(app);
+require('app\routing\html-route.js')(app);
 
 
 
