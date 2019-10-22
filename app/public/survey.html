@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hot Trash Survey</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+
+            <h1 class="text-center"><span class="fa fa-fire"></span> Hot Trash Survey <span class="fa fa-trash"></span>
+            </h1>
+            <hr>
+            <h4>Answer a few basic questions.</h4>
+            <h4>Lets see what other pieces of Steamy Garbage are compatable!</h4>
+            <hr>
+
+            <form>
+                <div class="form-group">
+                    <label for="userName">Your Name (Required)</label>
+                    <input type="text" class="form-control" id="friendName" placeholder="Enter Your Name">
+                </div>
+                <!-- <div class="form-group">
+                            <label for="exampleInputPassword1">Link to Photo Image (Required)</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1 friendImg">
+                        </div> -->
+                <div class="input-group mb-3">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile02 ">
+                        <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                    </div>
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="friendImg">Upload</span>
+                    </div>
+                </div>
+                <hr>
+
+                <h5>Instructions: Read question then answer it by choosing a number between 1 (Strongly Disagree) and 5
+                    (Strongly Agree) from the dropdown.</h5>
+                <br>
+                <div class="form-group">
+                    <label for="question1">Question 1: Is Cereal Soup?</label>
+                    <select class="form-control" id="question1">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question2">Question 2: Is a hotdog a sandwich?</label>
+                    <select class="form-control" id="question2">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question3">Question 3: Do you end up crying in the bathroom at a bar when you are
+                        drunk?</label>
+                    <select class="form-control" id="question3">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question4">Question 4: Do you think our legs are just fingers to our torso?</label>
+                    <select class="form-control" id="question4">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question5">Question 5: Do humans control their brain or does the brain control
+                        humans?</label>
+                    <select class="form-control" id="question5">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question6">Question 6: Does Pineapple belong on pizza?</label>
+                    <select class="form-control" id="question6">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question7">Question 7: Could 1000 chickens defeat an elephant?</label>
+                    <select class="form-control" id="question7">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question8">Question 8: If a bunch of cats jump on top of each other, is it still called
+                        a dog pile?</label>
+                    <select class="form-control" id="question8">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question9">Question 9: If a bald person works as a chef, should they wear a
+                        hairnet?</label>
+                    <select class="form-control" id="question9">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question10">Question 10: Should Siamese twins pay for 2 tickets if they go to a
+                        concert?</label>
+                    <select class="form-control" id="question10">
+                        <option value>Select an option</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary submit"><i class="far fa-check-square"></i> Submit
+                    Survey</button>
+            </form>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p><a href="/api/friends">API Friends Link</a> | <a
+                    href="https://seanrichter.github.io/friend-finder/.">GitHub Repo</a></p>
+        </div>
+    </footer>
+
+    <div class="modal" id="executeModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Friend Match</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4>Your new friend's name is: <span id="bestName"></span></h4>
+                    <img id="bestImg">
+                    <!-- <p>Modal body text goes here.</p> -->
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
