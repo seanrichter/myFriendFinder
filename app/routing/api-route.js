@@ -35,7 +35,7 @@ module.exports = function (app) {
                 //console.log("friendsData[i].scores[j] : " + friendsData[i].scores[j]);
                 //console.log("newScores[j]: " + newScores[j]);
                 //this takes the abolute difference between the two scores and adds it to friendCalc
-                friendCalc += Math.abs(friendsData[i].scores[j] - newScores[j]);
+                friendCalc += Math.abs(friendsData[i].scores[i] - newScores[j]);
                 console.log("friendCalc: " + friendCalc);
                 // friendMatch.push(friendCalc);
 
