@@ -1,5 +1,5 @@
 {
-  "name": "myFriendFinder",
+  "name": "myfriendfinder",
   "version": "1.0.0",
   "description": "Build a compatibility-based \"FriendFinder\" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
   "main": "server.js",
@@ -21,6 +21,8 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "router": "^1.3.3",
+    "routes": "^2.1.0"
   }
 }
