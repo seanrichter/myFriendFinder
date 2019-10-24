@@ -5,7 +5,7 @@ var bodyParser = require("body-parser");
 var path = require("path");
 
 var app = express();
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3001;
 
 // Sets up the Express app to handle data parsing
 //changed to true
@@ -13,7 +13,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //commented this out
 app.use(bodyParser.json());
 //app.use(express.static(__dirname + '/app/public')); 
-
 
 //from npm body-parser
 // parse application/json
@@ -23,7 +22,6 @@ app.use(bodyParser.json());
 require("./app/routing/api-route")(app);
 require("./app/routing/html-route")(app);
 // Could not get this to route the 
-
 
 
 // Starts the server to begin listening
