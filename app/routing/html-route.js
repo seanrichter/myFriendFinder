@@ -6,7 +6,7 @@ module.exports = function (app) {
 	});
 
 	//this will send the user home
-	app.get("/", function (req, res) {
+	app.get("/home", function (req, res) {
 		res.sendFile(path.join(__dirname + 'app\public\home.html'));
 	});
 }
