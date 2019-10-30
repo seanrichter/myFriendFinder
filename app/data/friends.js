@@ -1,4 +1,4 @@
-//Making friends arrway.  
+//Making friends array.  
 var friendsArray = [
   {
     friendName: "Justin",

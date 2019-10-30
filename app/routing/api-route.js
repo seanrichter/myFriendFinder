@@ -4,7 +4,7 @@ module.exports = function (app) {
     //whenever the user goes to the api/tables url go ahead and display the tableData in json format
     app.get('/api/friends', function (req, res) {
         res.json(friendsData);
-        console.log("friendsData[0].scores[0]: " + friendsData[0].scores[0]);
+        //console.log("friendsData[0].scores[0]: " + friendsData[0].scores[0]);
 
     });
 
