@@ -14,8 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/app/public/"));
 
 //require the html-routes
-require(path.join(__dirname, "./app/routing/apiRoutes.js"))(app);
-require(path.join(__dirname, "./app/routing/htmlRoutes.js"))(app);
+require(path.join(__dirname, "./app/routing/api-route.js"))(app);
+require(path.join(__dirname, "./app/routing/html-route.js"))(app);
 // Could not get this to route the 
 
 
