@@ -12,8 +12,7 @@ var PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 //commented this out
 app.use(express.json());
-//app.use(express.static(__dirname + '/app/public')); 
-
+app.use(express.static(__dirname + "/app/public/"));
 
 //require the html-routes
 require("./app/routing/api-route")(app);
